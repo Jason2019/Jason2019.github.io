@@ -1,0 +1,36 @@
+html,body{
+	margin:0;
+	padding:0;
+	font-family: 'Rammetto One', cursive;
+	font-size:16px;
+}
+button{
+	font-family: 'Rammetto One', cursive;
+	width: 20%;
+	margin: 5%;
+}
+.main-container{
+	width:80%;
+	max-width: 1080px;
+	margin: 10px auto;
+	background-color: blue;
+}
+.head-container{
+	text-align: center;
+	font-size: 3em;
+}
+.button-container{
+	width: 70%;
+	background-color:orange;
+	text-align: center;
+	margin:20px auto;
+}
+iframe{
+	display: block;
+	margin: 10%;
+}
+@media(max-width: 870px){
+	iframe{
+		width: 40%;
+	}
+}
