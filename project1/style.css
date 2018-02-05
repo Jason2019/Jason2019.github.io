@@ -1,40 +1,46 @@
-html,body{
-	margin:0;
-	padding:0;
-	font-family: 'Rammetto One', cursive;
-	font-size:4px;
+body{
+	width: 80%;
+	margin: 0 auto;
 }
+.mainNav {
+	width: 80%;
+	background-color: 
+	rgb(0,0,0);
+	position: fixed;
+	top: 0px;
+	display: inline-block;
+}
+/*@media(max-width: 960px){
+.mainNav{
+	width: 100%;
+	}
+}*/
 button{
 	font-family: 'Rammetto One', cursive;
 	width: 20%;
-	margin: 5%;
-}
-.main-container{
-	width:80%;
-	max-width: 1080px;
-	margin: 10px auto;
-	background-color: blue;
+	font-size: 20px;
+	margin: 2.3%;
+	color:white;
+
 }
 .head-container{
-	text-align: center;
-	font-size: 3em;
+	margin-top: 45px;
+	/*font-size: 60px;
+	font-family: 'Rammetto One', cursive;
+	text-align: center;*/
 }
-.button-container{
-	/* fix the button container, it won't scroll down*/
-	position: fixed;
-	top: 10px;
-	right: 20px;
-	width: 70%;
-	background-color:orange;
-	text-align: center;
-	margin:20px auto;
-}
+
 iframe{
 	display: block;
-	margin: 10%;
+	width: 100%;
 }
-@media(max-width: 870px){
-	iframe{
-		width: 40%;
-	}
+
+.video-container {
+	background-color: rgb(255,0,0);
+	width: 70%;
+	margin-left: 15%;
+}
+
+.review-container{
+
 }
