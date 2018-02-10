@@ -1,46 +1,60 @@
 body{
 	width: 80%;
 	margin: 0 auto;
+	background-color: rgb(0,0,0);
+	font-family: 'Merriweather', serif;
 }
+
 .mainNav {
 	width: 80%;
 	background-color: 
 	rgb(0,0,0);
 	position: fixed;
-	top: 0px;
-	display: inline-block;
+	top:0;
+	display: inline;
+	margin:0;
 }
-/*@media(max-width: 960px){
-.mainNav{
-	width: 100%;
-	}
-}*/
+
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	color:white;
+	margin:5px;
+}
+
 button{
-	font-family: 'Rammetto One', cursive;
 	width: 20%;
+	height: 38px;
 	font-size: 20px;
 	margin: 2.3%;
 	color:white;
 
 }
-.head-container{
-	margin-top: 45px;
-	/*font-size: 60px;
-	font-family: 'Rammetto One', cursive;
-	text-align: center;*/
+.main-picture{
+	margin-top: 115px;
+
 }
 
 iframe{
 	display: block;
-	width: 100%;
+	margin: 10px auto;
 }
 
-.video-container {
-	background-color: rgb(255,0,0);
-	width: 70%;
-	margin-left: 15%;
+@media (max-width: 1500px ) {
+	iframe{
+		width: 100%; 
+	}
 }
-
-.review-container{
-
+#the-video{
+	display: none;
+}
+#the-introduction{
+	display: none;
+}
+.text-container{
+	display: none;
+	text-align: center;
+	font-size: 30px;
+	color: rgb(255,255,255);
 }
