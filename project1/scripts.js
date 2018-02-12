@@ -49,6 +49,7 @@ $("#contacts-button").click(function(){
         $("#contact1").delay(0).fadeIn(1000);
         $("#contact2").delay(800).fadeIn(1000);
         $("#contact3").delay(1600).fadeIn(1000);
+        $("#contact4").delay(2400).fadeIn(1000);
 
 
 
