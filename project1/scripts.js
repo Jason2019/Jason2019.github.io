@@ -23,8 +23,17 @@ $("#reviews-button").click(function(){
 	$(".text-container").hide();
 	$("#the-introduction").hide();
 	$("#the-video").hide();
-	$("#reviews-text").show();
+
 	$("#the-header").html("REVIEWS");
+	
+	$(document).ready(function(){
+        $("#review1").delay(500).fadeIn(1000);
+        $("#review2").delay(1500).fadeIn(1000);
+        $("#review3").delay(2500).fadeIn(1000);
+        $("#review4").delay(3000).fadeIn(1000);
+
+
+    });
 });
 
 $("#contacts-button").click(function(){
@@ -33,6 +42,17 @@ $("#contacts-button").click(function(){
 	$(".text-container").hide();
 	$("#the-introduction").hide();
 	$("#the-video").hide();
-	$("#contacts-text").show();
+
 	$("#the-header").html("CONTACTS");
+
+	$(document).ready(function(){
+        $("#contact1").delay(0).fadeIn(1000);
+        $("#contact2").delay(800).fadeIn(1000);
+        $("#contact3").delay(1600).fadeIn(1000);
+
+
+
+    });
 });
+
+
