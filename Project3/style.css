@@ -1,0 +1,98 @@
+.intro{
+	height:100vh;
+	width: 100vw;
+}
+.title-page{
+	position: center;
+	display: block;
+	margin-top: 30vh;
+	height: 30vh;
+	width: 100vw;
+	background-color: blue;
+}
+#name{
+	text-align: center;
+	font-size: 6em;
+	color: white;
+	margin: 1em;
+	font-family: 'Rock Salt', cursive;
+}
+.button {
+	margin-top: 50px;
+	text-align:center;
+	color: white;
+	font-family: 'Patrick Hand', cursive;
+}
+#start{
+	font-size: 30px;
+	color: blue;
+	font-family: 'Patrick Hand', cursive;
+}
+#start:hover{
+	font-size: 50px;
+}
+.panel{
+	height:100vh;
+	width: 100vw;
+}
+.panel-img{
+	margin-top: 7vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	height: 80vh;
+	width: 90vw;
+	display: block;
+}
+/*icon changing the size*/
+.panel-down{
+	height:50px;
+	display: block;
+	margin-top: 20px;
+	margin-left: 48vw;
+	animation-name: breathing;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes breathing{
+	0%{height: 50px;}
+	33%{height:55px;}
+	67%{height:60px;}
+	100%{height:55px;}
+}
+/*fix the top button to the right bottom of the window*/
+#top{
+	font-size: 25px;
+	position: fixed;
+	right: 70px;
+	bottom: 50px;
+	font-family: 'Patrick Hand', cursive;
+}
+#top:hover{
+	font-size: 30px;
+}
+
+#man{
+	position: absolute;
+	top: 500vh;
+	left: 9.7vw;
+	transform: scale(0.2);
+}
+/* Reference to the W3school example how to shake an image.*/
+@keyframes shake{
+    0% { transform: rotate(0deg) scale(0.2); }
+    9% { transform: rotate(-30deg) scale(0.2); }
+    18% { transform: rotate(0deg) scale(0.2); }
+    27% { transform: rotate(15deg) scale(0.2); }
+    36% { transform: rotate(0deg) scale(0.2); }
+    45% { transform: rotate(-30deg) scale(0.2); }
+    54% { transform: rotate(0deg) scale(0.2); }
+    63% { transform: rotate(15deg) scale(0.2); }
+    72% { transform: rotate(0deg) scale(0.2); }
+    81% { transform: rotate(-30deg) scale(0.2); }
+    90% { transform: rotate(0deg) scale(0.2); }
+    100% { transform: rotate(15deg) scale(0.2); }
+}
+
+}
+
+

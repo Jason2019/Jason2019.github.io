@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Rock+Salt" rel="stylesheet">
+	<title>Project 3</title>
+</head> 
+
+<body>
+	<!--The first page-->
+	<div class="intro">
+		<div class="title-page">
+			<p id="name">Defrost</p>
+		</div>
+		<!--click the start button/image to start the story-->
+		<div class="button">
+			<button onclick="begin()" id="start">START</button>
+		</div>
+	</div>
+
+	<!--Story begins-->
+	<div class="panel">
+		<img class="panel-img" src="images/library.png">
+		<img onclick="one()" class="panel-down" src="images/down.png">
+		<!--back to the top-->
+		<button onclick="back()" id="top">TOP</button>
+	</div>
+
+	<!--second panel-->
+	<div class="panel">
+		<img class="panel-img" src="images/map.png">
+		<img onclick="two()" class="panel-down" src="images/down.png">
+		<audio id="plane" src="audio/plane.mp3"></audio>
+	</div>
+
+	<!--third panel-->
+	<div class="panel">
+		<img class="panel-img" src="images/volcano.png">
+		<img onclick="three()" class="panel-down" src="images/down.png">
+	</div>
+
+	<!--fourth panel-->
+	<div class="panel">
+		<img class="panel-img" src="images/climbing.png">
+		<img onclick="four()" class="panel-down" src="images/down.png">
+		<img id="man" onclick="three()" src="images/man.png">
+	</div>
+
+	<!--fifth panel-->
+	<div class="panel">
+		<img class="panel-img" src="images/sinking.png">
+		<img onclick="five()" class="panel-down" src="images/down.png">
+		<audio id="bubble" src="audio/bubble.mp3"></audio>
+	</div>
+
+	<!--sixth panel-->
+	<div class="panel">
+		<img class="panel-img" src="images/burning.png">
+	</div>
+
+
+
+
+	<script src="scripts.js"></script>
+</body>
