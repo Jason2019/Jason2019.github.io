@@ -1,24 +1,27 @@
 .intro{
 	height:100vh;
 	width: 100vw;
+	background-color: rgb(21,115,255);
 }
+/*
 .title-page{
 	position: center;
 	display: block;
 	margin-top: 30vh;
 	height: 30vh;
-	width: 100vw;
-	background-color: blue;
+	width: 100vw;	
 }
+*/
 #name{
 	text-align: center;
 	font-size: 6em;
 	color: white;
-	margin: 1em;
+	margin: 0em;
+	padding-top: 2em;
 	font-family: 'Rock Salt', cursive;
 }
 .button {
-	margin-top: 50px;
+	margin-top: ;
 	text-align:center;
 	color: white;
 	font-family: 'Patrick Hand', cursive;
@@ -28,17 +31,46 @@
 	color: blue;
 	font-family: 'Patrick Hand', cursive;
 }
+#go{
+	font-size: 30px;
+	color:red;
+	font-family: 'Patrick Hand', cursive;
+	position: absolute;
+	left:13vw;
+	top:478vh;
+}
+#go:hover{
+	font-size: 40px;
+}
 #start:hover{
-	font-size: 50px;
+	font-size: 40px;
 }
 .panel{
 	height:100vh;
 	width: 100vw;
 }
+#panel-1{
+	background-color: rgb(61,177,255);
+}
+#panel-2{
+	background-color: rgb(124,196,243);
+}
+#panel-3{
+	background-color: rgb(208,236,255);
+}
+#panel-4{
+	background-color: rgb(255,225,225);
+}
+#panel-5{
+	background-color: rgb(232,118,118);
+}
+#panel-6{
+	background-color: rgb(212,58,58);
+}
 .panel-img{
-	margin-top: 7vh;
-	margin-left: 5vw;
-	margin-right: 5vw;
+	padding-top: 7vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
 	height: 80vh;
 	width: 90vw;
 	display: block;
@@ -47,8 +79,8 @@
 .panel-down{
 	height:50px;
 	display: block;
-	margin-top: 20px;
-	margin-left: 48vw;
+	padding-top: 20px;
+	padding-left: 48vw;
 	animation-name: breathing;
 	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
@@ -73,7 +105,7 @@
 
 #man{
 	position: absolute;
-	top: 500vh;
+	top: 450vh;
 	left: 9.7vw;
 	transform: scale(0.2);
 }
