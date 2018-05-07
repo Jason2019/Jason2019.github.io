@@ -1,0 +1,230 @@
+body{
+	background-color: black;
+}
+.fusion-row{
+	margin:0 auto;
+	zoom:1;
+	padding-right: 3%;
+	padding-left: 3%;
+
+}
+.fusion-logo{
+display: block;
+float:left;
+max-height: 100%;
+position: fixed;
+}
+.fusion-mainnav{
+float: right;
+top:0px;
+position: fixed;
+padding-left: 50vw;
+background-color: rgba(1,1,1,0.7);
+}
+.menu-item{
+	float:left;
+	margin: 25px;
+	padding: 4px;
+	font-family: Kanit;
+	border-color: transparent;
+}
+
+button{
+	height: 38px;
+	font-size: 23px;
+	margin: 2.3%;
+	color: rgb(210, 210, 224);
+	background-color: transparent;
+
+}
+.menu-item:hover{
+	transform: scale(1.5); 
+	color: white;
+}
+/*center the video tabs.*/
+.video-nav{
+	text-align: center;
+
+}
+.vidoe-item{
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px ;
+	border-color: rgb(210, 210, 224);
+}
+.video-item:hover{
+	transform: scale(1.5); 
+	color: white;
+}
+/*When you hover over the button, change the text.*/
+#part1:hover{
+	font-size: 0;
+}
+#part1:hover:after{
+	content: attr(part1-hover);
+	font-size: 20px;
+}
+#part2:hover{
+	font-size: 0;
+}
+#part2:hover:after{
+	content: attr(part2-hover);
+	font-size: 20px;
+}
+#part3:hover{
+	font-size: 0;
+}
+#part3:hover:after{
+	content: attr(part3-hover);
+	font-size: 20px;
+}
+.money{
+	height: 70vh;
+	width: 70vw;
+	float: left;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-top: 5vh;
+	margin-bottom: 0px;
+	background-size: 100%;
+	background-position: center; 
+	transition: 0.5s;
+	font-family: Kanit;
+}
+.money:hover{
+	background-size:  97%;
+}
+.money:after{
+	position: absolute;
+	width:70vw;
+	height: 70vh;
+	background-color: rgba(0,0,0,0.7);
+	color: rgb(210, 210, 224);
+	opacity: 0;
+	content:attr(data-text);
+	font-size: 1.4em;
+}
+.money:hover:after{
+	opacity: 1;
+}
+
+.title{
+	display: block;
+	margin-left: 5vw;
+}
+h1{
+	font-size: 2em;
+	color: rgb(210, 210, 224);
+	font-family: Kanit;
+}
+.page{
+	width: 100vw;
+	height:100vh;
+	padding-top: 80px;
+	text-align: left;
+}
+.content{
+	margin-left: 12.5vw;
+	margin-right: 12.5vw;
+}
+p{
+	color: rgb(210, 210, 224);
+	font-size: 1.4em;
+	font-family: Kanit;
+}
+ul{
+	color: rgb(210, 210, 224);
+	font-size: 1.4em;
+	font-family: Kanit;
+}
+.image{
+	padding-right: 5vw;
+}
+/* Refer to w3school*/
+.amber{
+	width:20vw;
+	height: 20vw;
+	float: left;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	margin-top: 15vh;
+	background-size: 100%;
+	background-position: center; 
+	transition: 0.5s;
+	color: rgb(0,0,0);
+	background-repeat: no-repeat;
+}
+
+.amber:hover{
+	background-size:  110%;
+}
+.amber:after{
+	position: absolute;
+	width:20vw;
+	height: 20vw;
+	background-color: rgba(0,0,0,0.5);
+	color: rgb(255,255,255);
+	opacity: 0;
+	content:attr(data-text);
+	font-size: 1.25em;
+	font-family: Kanit;
+	vertical-align: middle;
+	text-align: center;
+}
+.amber:hover:after{
+	opacity: 1;
+}
+.awards{
+	float: left;
+	margin-left: 30vw;
+	max-width: 40vw;
+}
+.video{
+	
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+}
+.overlays{
+	position: fixed;
+	display: none;
+	width:100vw;
+	height: 100vh;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 100;
+	cursor: pointer;	
+}
+.option{
+	padding-top: 20vh;
+	padding-bottom: 10vh;
+	text-align: center;
+}
+.option1{
+	display:block;
+	left:50%;
+}
+.option-item{
+	margin: 25px;
+	padding: 4px;
+	font-family: Kanit;
+	margin:0;
+}
+.option-item:hover{
+	transform: scale(1.5); 
+	color: white;
+}
+.credits{
+	position: absolute;
+	margin-top: 70vh;
+	font-size: 1em;
+	padding-left: 35vw;
+}
+.credits:hover{
+	color: rgb(255,255,255);
+	font-size: 1.1em;
+}
+

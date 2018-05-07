@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Ultimate Animation Studio</title>
+</head>
+
+<body>
+	<div class="fusion-row" id="page1">
+
+		<div class="fusion-mainnav">
+
+			<button class="menu-item" id="company-button" onclick="one()">Projects</button>
+			<button class="menu-item" id="project-button" onclick="two()">Company</button>
+			<button class="menu-item" id="actors-button" onclick="three()">Team</button>
+			<button class="menu-item" id="actors-button" onclick="four()">Actors</button>
+
+		</div>	
+		<div class="fusion-logo">
+			<img src="logo.png" height="71" style="padding-top: 10px">
+		</div>
+	</div>
+
+	<div class="page">
+		<div class="money" data-text="We use money everyday. But, we never take care of it. Some torn notes are abandoned by people. Some are lucky to be repaired and be reused again." style= "background-image: url(money.gif)"></div>
+
+		<div class="video-nav">
+			<a href="video1.html"><button class="video-item" id="part1" part1-hover="Click to Watch">Part 1</button></a>
+			<button class="video-item" id="part2" onclick="parttwo()" part2-hover="Coming Soon">Part 2</button>
+			<button class="video-item" id="part3" onclick="partthree()" part3-hover="Coming Soon">Part 3</button>		
+		</div>
+
+
+	</div>
+
+	<div  class="page" id="page2">
+		<h1 class="title" id="company" style="margin-top: 0;margin-bottom: 0">The Company</h1>
+		<div class="content">
+			<p>
+				ULTIMATE Animation Studio is a UAE based animation studio that creates animated feature films, short films and TV commercials etc. It was founded on May 5th, 2018, by three star students from New York University Abu Dhabi.
+			</p>
+			<p id="create">
+				We create:
+				<ul id="create">
+					<li>Full length animated feature films</li>
+					<li>Virtual reality films</li>
+					<li>Animated architectural visualizations</li>
+					<li>University student life advertisement</li>
+				</ul>
+			</p>
+			<p>
+				But no matter the subject, our mission is always to create the best experience for the users, to deliver engaging stories with compelling characters and the utmost quality.
+			</p>
+		</div>
+		<div >
+			<img class="awards" src="awards.png">
+		</div>
+	</div>
+
+	<div class="page" id="page3">
+		<h1 class="title" id="creators">Meet the Team</h1>
+		<!--Hover over the image and show the text. refer to youtube: css- show text over an iamge on hover without JavaScript-->
+		<div class="content"> 
+			<div class="amber" data-text="Amber, CEO, is a senior in NYUAD, major in Psychology. She is an expert in animation. She has developed over 15 different commercial advertisement." style= "background-image: url(Amber.jpg)"></div>
+
+			<div class="amber" data-text="Kristaps, COO, studied in UAE. He knew he was going to grow up to work in animation. He's fulfilled his childhood dream for 20 years. He has a studio in Russia." style= "background-image: url(Kristaps.jpg)"> </div>
+
+			<div class="amber" data-text="Jason, CTO, is an expert in coding. He started to code when he was 6 years old. He has worked in Alibaba for 6 months, one of the biggest tech companies in China. His favourate animation is Tom and Jerry." style="background-image: url(Jason.jpg)"></div>
+		</div>
+	</div>
+
+
+	<div class="page" id="page4">
+		<h1 class="title" id="characters">Our Actors</h1>
+
+		<div class="content"> 
+			<div class="amber" data-text="Brothers: The Nickle brothers first started acting at the age of 5. By becoming superstarts of the local theatre scene the Nickles set themselves up for guaranteed success in the future." style= "background-image: url(coins)"></div>
+
+			<div class="amber" data-text="Arthur, an internationally acclaimed drama feature actor, took on this role to prove that he can succeed in a small production as well as a blockbuster movies. “I love a challenge, and when the NYU AD students approached me I knew this was the right thing for me.”" style= "background-image: url(bill1)"> </div>
+
+			<div class="amber" data-text="Clifford: A veteran of the Abu Dhabi movie scene, Clifford brought experience and wisdom to the production set. The new actors were especially amazed by Clifford’s composure and self-assurance on the set." style="background-image: url(bill2)"></div>
+		</div>
+		<a href="http://www.moondoganimation.com/"><p class="credits">Website inspiration: Moondog Animation Studio</p></a>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="scripts.js"></script>
+</body>
