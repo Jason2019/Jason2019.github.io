@@ -1,7 +1,11 @@
 .intro{
 	height:100vh;
 	width: 100vw;
+<<<<<<< HEAD
 	background:linear-gradient(rgba(21,115,255,0.8),rgba(61,177,255,0.8));
+=======
+	background-color: rgb(21,115,255);
+>>>>>>> 060da6cd34df58332febab598005ca0c808b0d4f
 }
 /*
 .title-page{
@@ -20,9 +24,14 @@
 	padding-top: 2em;
 	font-family: 'Rock Salt', cursive;
 }
+<<<<<<< HEAD
 input{
 	left: 100px;
 	bottom: 50px;
+=======
+.button {
+	margin-top: ;
+>>>>>>> 060da6cd34df58332febab598005ca0c808b0d4f
 	text-align:center;
 	background-color: transparent;
 	border: none;
@@ -52,7 +61,10 @@ button {
 	position: absolute;
 	left:13vw;
 	top:478vh;
+<<<<<<< HEAD
 	margin-left: 50%;
+=======
+>>>>>>> 060da6cd34df58332febab598005ca0c808b0d4f
 }
 #go:hover{
 	font-size: 40px;
@@ -65,6 +77,7 @@ button {
 	width: 100vw;
 }
 #panel-1{
+<<<<<<< HEAD
 	background:linear-gradient(rgba(61,177,255,0.8), rgba(124,196,243,0.8));
 }
 #panel-2{
@@ -81,12 +94,33 @@ button {
 }
 #panel-6{
 	background: linear-gradient(rgba(232,118,118,0.8),rgba(212,58,58,0.8));
+=======
+	background-color: rgb(61,177,255);
+}
+#panel-2{
+	background-color: rgb(124,196,243);
+}
+#panel-3{
+	background-color: rgb(208,236,255);
+}
+#panel-4{
+	background-color: rgb(255,225,225);
+}
+#panel-5{
+	background-color: rgb(232,118,118);
+}
+#panel-6{
+	background-color: rgb(212,58,58);
+>>>>>>> 060da6cd34df58332febab598005ca0c808b0d4f
 }
 .panel-img{
 	padding-top: 7vh;
 	padding-left: 5vw;
 	padding-right: 5vw;
+<<<<<<< HEAD
 	margin-left: 17%;
+=======
+>>>>>>> 060da6cd34df58332febab598005ca0c808b0d4f
 	height: 80vh;
 	/*width: 90vw;*/
 	display: block;
@@ -95,12 +129,20 @@ button {
 #panel-down{
 	height:50px;
 	display: block;
+<<<<<<< HEAD
 	/*padding-top: 20px;
 	padding-left: 48vw;*/
 	-webkit-animation-duration: 1s;
   	/*-webkit-animation-delay: 2s;*/
   	margin-top: 2%;
 	margin-left: 47%;
+=======
+	padding-top: 20px;
+	padding-left: 48vw;
+	animation-name: breathing;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+>>>>>>> 060da6cd34df58332febab598005ca0c808b0d4f
 }
 
 /*@keyframes breathing{
@@ -132,9 +174,15 @@ button {
 
 #man{
 	position: absolute;
+<<<<<<< HEAD
 	top: 475vh;
 	left: 34vw;
 	/*transform: scale(0.2);*/
+=======
+	top: 450vh;
+	left: 9.7vw;
+	transform: scale(0.2);
+>>>>>>> 060da6cd34df58332febab598005ca0c808b0d4f
 }
 /* Reference to the W3school example how to shake an image.*/
 @keyframes shake{
