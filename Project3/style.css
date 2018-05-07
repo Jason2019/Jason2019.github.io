@@ -20,6 +20,16 @@
 	padding-top: 2em;
 	font-family: 'Rock Salt', cursive;
 }
+input{
+	left: 100px;
+	bottom: 50px;
+	text-align:center;
+	background-color: transparent;
+	border: none;
+	border-color: white;
+	border-radius: 5px;
+	font-family: 'Patrick Hand', cursive;
+}
 button {
 	margin-top: ;
 	text-align:center;
@@ -90,7 +100,7 @@ button {
 	-webkit-animation-duration: 1s;
   	/*-webkit-animation-delay: 2s;*/
   	margin-top: 2%;
-	margin-left: 50%;
+	margin-left: 47%;
 }
 
 /*@keyframes breathing{
@@ -108,6 +118,15 @@ button {
 	font-family: 'Patrick Hand', cursive;
 }
 #top:hover{
+	font-size: 30px;
+}
+
+.creators{
+	font-size: 25px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.creators:hover{
 	font-size: 30px;
 }
 
@@ -133,6 +152,14 @@ button {
     100% { transform: rotate(15deg); }
 }
 
+.perfect{
+	position: absolute;
+	/*top: 200vh;*/
+	margin-top: 40%;
+	left: 48vw;
+	font-size: 15px;
+	color:white;
 }
+
 
 
