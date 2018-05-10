@@ -1,54 +1,62 @@
 <!DOCTYPE html>
 <html>
 
-  <!-- the head tag defines all the elements we need for the webpage to be displayed properly -->
-	<head>
+<!-- the head tag defines all the elements we need for the webpage to be displayed properly -->
+<head>
 
-    <!-- this meta tag indicates what kind of character encoding we need -->
-		<meta charset="utf-8"/>
+	<!-- this meta tag indicates what kind of character encoding we need -->
+	<meta charset="utf-8"/>
 
-    <!-- this tag sets the size of the window, here we specify the window width to be as large as possible -->
-		<meta name="viewport" content="width=device-width"> 
+	<!-- this tag sets the size of the window, here we specify the window width to be as large as possible -->
+	<meta name="viewport" content="width=device-width"> 
 
-    <!-- this is the title that appears at the top of the window/on the browser tab -->
-		<title>project 1</title>
-		<link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
-    <!-- this is the tag that allows you to link to external files, such as CSS and JS -->
-		<link rel="stylesheet" type="text/css" href="style.css" />
+	<!-- this is the title that appears at the top of the window/on the browser tab -->
+	<title>Jason Tao</title>
+	<link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+	<!-- this is the tag that allows you to link to external files, such as CSS and JS -->
+	<link rel="stylesheet" type="text/css" href="style.css" />
 
-	</head>
+</head>
 
-  <!-- the body tag is where we actually put the content we want to be displayed -->
-	<body>
-
-		<div class="head-container">
-			<div>Jason's CommLab Home Page</div>
-			<a href="./project1">PROJECT 1</a>
+<!-- the body tag is where we actually put the content we want to be displayed -->
+<body>
+	<div >
+		<div class="fusion-mainnav">
+			<a href="index.html"><button class="menu-item" id="projects">Projects</button></a>
+			<a href="class.html"><button class="menu-item" >About the Class</button></a>
+			<a href="bio.html"><button class="menu-item" >Bio</button>	</a>
+		</div>	
+		<div class="label">
+			<p class="commlab">Communication Lab - Jason Tao</p>
 		</div>
-		<!--
-		<div class="main-container">
-			<div class="header-container">
-				30MFF
-			</div>
-			<div class="button-container">
-				<button>CAST</button>
-				<button>REVIEWS</button>
-				<button>BEHIND THE SCENES</button>
-			</div>
-			<div class="vedeo-container">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/njAaKD9LsF4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-			<div class="text-container">
-				<p>this moive is great</p>
-				<p>I love this one</p>
-				<p>fds</p>
-				<p>sda</p>>
-			</div>
+
+
+		<div class="project">
+			<a href="project1/index.html"><div class="project-item" data-text="Mission Impossible: This project is about creating a webpage for 30 munites film festival - Mission Impossible. In the project, I used basic HTML,CSS and Javascript to create some interactivity like click event on the webpage. Click to see the project -->" style="background-image: url(images/MI.png)"></div></a>
+
+			<a href="noodle_project/index.html"><div class="project-item" data-text="NYUoodles: In this project, we created sound pieces of making creative noodles. We collect any eatable materials and make our NYUoodles. Click to see the project -->" style="background-image: url(images/noodles.jpg)"></div></a>
+
+			<a href="https://ambernomani.github.io/project3/"><div class="project-item" data-text="Defrost: This project is about creating a six-panel comic. We used Adobe Illustrator and Photoshop to create the content. Click to see the project -->" style="background-image: url(images/library.png)"></div></a>
+
+			<a href="FoodSeekers/index.html"><div class="project-item" data-text="FoodSeekers: This is a video project. We created a 4-6 minute 'interactive' video that lives on a web page and uses Javascript to incorporate elements of interactivity. Click to see the project -->" style="background-image: url(images/food.jpg)"></div></a>
+
+			<a href="project 5/index.html"><div class="project-item" data-text="Ultimate Animation Studio: In this project, we use money as a character to create a 2-minute animation. We used Dragonframe to take seperate pictures and put them together. Click to see the project -->" style="background-image: url(images/money.gif)"></div></a>
+
+
+
 		</div>
-		-->
-		<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-		<script src="script.js"></script>
+
+
+	</div>
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.js"></script>
+	<script src="sketch.js"></script>
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="script.js"></script>
 	
-	</body>
+</body>
 </html>
 <!-- never forget to close your tags! -->

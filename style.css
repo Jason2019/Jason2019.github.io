@@ -1,40 +1,126 @@
-html,body{
-	margin:0;
-	padding:0;
-	font-family: 'Rammetto One', cursive;
-	font-size:4px;
+body {
+  margin: 0;
+  display: block;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+  background: rgba(0,0,0,0.2);
 }
-button{
-	font-family: 'Rammetto One', cursive;
-	width: 20%;
-	margin: 5%;
-}
-.main-container{
-	width:80%;
-	max-width: 1080px;
-	margin: 10px auto;
-	background-color: blue;
-}
-.head-container{
-	text-align: center;
-	font-size: 3em;
-}
-.button-container{
-	/* fix the button container, it won't scroll down*/
+
+.fusion-mainnav{
+	float: right;
+	top:0px;
+	left:0px;
+	right:0px;
 	position: fixed;
-	top: 10px;
-	right: 20px;
-	width: 70%;
-	background-color:orange;
-	text-align: center;
-	margin:20px auto;
+	padding-left: 67vw;
+background-color: rgba(0,0,0,0.3);
+
 }
-iframe{
+.menu-item{
+	float:left;
+	margin: 25px;
+	padding: 4px;
+	font-family: Kanit;
+	border-color: transparent;
+}
+
+button{
+	height: 38px;
+	font-size: 23px;
+	margin: 2.3%;
+	color: rgb(0,0,0);
+	background-color: transparent;
+
+}
+.menu-item:hover{
+	transform: scale(1.5); 
+	color: white;
+	border-bottom-color: rgb(255,255,255);
+}
+.label{
 	display: block;
-	margin: 10%;
+	float:left;
+	padding-left: 7vw;
+	position: fixed;
+	font-size: 23px;
 }
-@media(max-width: 870px){
-	iframe{
-		width: 40%;
-	}
+.commlab{
+	margin-top: 30px;
+}
+.project{
+	padding-top: 88px;
+	text-align: center;	
+		padding-left: 8vw;
+}
+.project-item{
+	margin-top: 3vh;
+	margin-left: 2vw;
+	position: relative;
+	text-align: center;
+	width: 40vw;
+	height: 25vh;
+	float: left;
+
+	background-position: center; 
+	transition: 0.5s;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.project-item:hover{
+	background-size: 95%;
+}
+.project-item:after{
+	position: absolute;
+	left:0vw;
+	width:40vw;
+	height: 25vh;
+	background-color: rgba(255,255,255,0.8);
+	color: rgb(0,0,0);
+	opacity: 0;
+	content:attr(data-text);
+	font-size: 1.25em;
+	font-family: Kanit;
+	vertical-align: middle;
+	text-align: left;
+}
+.project-item:hover:after{
+	opacity: 1;
+}
+
+.discription{
+	padding-left: 20vw;
+	padding-right: 20vw;
+	padding-top: 120px;
+	
+	font-family: Kanit;
+	font-size: 23px;
+	float: left;
+
+}
+.title{
+	text-align: center;
+	display: block;
+	font-family: Kanit;
+	font-size: 30px;
+}
+#jason{
+	width: 32vw;
+	height: 40vh;
+	margin-left: 14vw;
+	text-align: center;
+}
+
+#projects{
+	border-bottom-color: rgb(0,0,0);
+}
+#about{
+border-bottom-color: rgb(0,0,0);
+}
+#bio{
+	border-bottom-color: rgb(0,0,0);
 }
